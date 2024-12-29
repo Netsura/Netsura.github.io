@@ -53,7 +53,7 @@ body{
 }
 
 .container.px-4.py-5{
-    margin: 0 auto !important;
+    margin: 30px auto !important;
     background: none !important;
     box-shadow: 0 10px 100px rgba(0,0,0,0.1);
 }
@@ -95,9 +95,27 @@ body{
 .nav-link.px-2.text-secondary{
     color: #7843E9 !important;
 }
+#custom-cards{
 
-.px-4.py-5.my-5.text-center{
-    animation: fade 1s 1s both;
+}
+
+.giturl{
+    color: white;
+    background: linear-gradient(to right, #969696, #15121f, #121d39, #15121f, #969696);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+.d-flex.flex-column.h-100.p-5.pb-3.text-white.text-shadow-1{
+    background: linear-gradient(50deg, rgb(126, 126, 126), transparent);
+   
+}
+.card.card-cover.h-100.overflow-hidden.text-bg-dark.rounded-4.shadow-lg{
+    background: linear-gradient(50deg, rgb(126, 126, 126), transparent);
+
 }
 
 

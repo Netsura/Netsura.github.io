@@ -1,17 +1,7 @@
-const observer = new IntersectionObserver((enteries) => {
-    enteries.forEach(entry => {
-        if(entry.isIntersecting){
-            entry.target.classList.add('in-view')
-        } else{
-            entry.target.classList.remove('in-view')
-        }
-    });
-}, {rootMargin: '0px',
-    threshold: [0, 0.1, 1],
-})
+document.getElementsByClassName('nav-link.px-2.text-white.click').addEventListener('click', clickFunction)
 
-const tags = document.querySelectorAll('h2, div, p')
+console.log(clickFucntion);
 
-tags.array.forEach((tag) => {
-    observer.observe(tag)
-});
+function clickFunction(contacts) {
+    
+}
